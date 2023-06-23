@@ -6,6 +6,7 @@ export async function getProjects(): Promise<Project[]>{
         projectId: 'h775wynk',
         dataset: 'production',
         apiVersion: '2023-06-23',
+        useCdn: true,
     });
 
     return client.fetch(
